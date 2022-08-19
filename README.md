@@ -2,8 +2,8 @@
 
 该项目为基于C#的个人用图书管理系统，连接了基于Sql Server的数据库，可以用于个人藏书清点等用途，基本实现了添加图书、修改图书、删除图书和查找图书等操作。
 
-> 如果无法在本地查看该Markdown文件或图片无法顺利加载
-> 请在Github上查看该文件([https://github.com/Only-Don/HUST_SEC2022_Homework](https://github.com/Only-Don/HUST_SEC2022_Homework))
+> 如果无法在本地查看该Markdown文件或图片无法顺利加载  
+> 请在Github上查看该文件([https://github.com/Only-Don/HUST_SEC2022_Homework](https://github.com/Only-Don/HUST_SEC2022_Homework))  
 > 相关源代码也会在课程结束后一并上传至Github上
 
 ## 目录
