@@ -5,6 +5,8 @@
 > 如果无法在本地查看该Markdown文件或图片无法顺利加载  
 > 请在Github上查看该文件([https://github.com/Only-Don/HUST_SEC2022_Homework](https://github.com/Only-Don/HUST_SEC2022_Homework))  
 > 相关源代码也会在课程结束后一并上传至Github上
+>
+> 另：发现在Visual Studio Code中使用`Markdown Preview Enhanced`可能会出现图片无法正常加载的情况，此时禁用该插件，并安装且全局启用`Markdown All in One`插件可以顺利加载图片。
 
 ## 目录
 - [个人用图书管理系统](#个人用图书管理系统)
@@ -33,9 +35,13 @@
   
   ![新建数据库](README依赖材料/新建数据库.PNG)
 
-  1. 展开已创建好的新数据库，右键单击表，选择`新建`|`表`，创建`t_admin`、`t_book`两张数据表。
+  1. 展开已创建好的新数据库，右键单击表，选择`新建`|`表`，创建`t_admin`、`t_book`两张数据表。且设计好每张表中的属性及数据类型，如图所示：
+  
+  ![admin属性](README依赖材料/admin属性.PNG)
+
+  ![book属性](README依赖材料/book属性.PNG)
      
-        > <font color=#FF000><b>注意</b>：由于该代码中Sql语句是基于这两张数据表而运行，故这两张表的名字<b>不可更改</b>，若随意更改运行时将报错！</font>
+    > <font color=#FF000><b>注意</b>：由于该代码中Sql语句是基于这两张数据表而运行，故这两张表的名字<b>不可更改</b>，若随意更改运行时将报错！并且在设计时应该就选定好主键和确认是否允许Null值，否则之后<b>无法更改！</b></font>
         
   2. 右键单击`t_admin`数据表，选择`编辑前200行`，手动输入管理者的账户与密码，为之后图书管理系统的运行做好准备。
   3. 返回Microsoft Visual Studio，在`调试`菜单中选择`开始调试`，即可试运行该个人用图书管理系统。
